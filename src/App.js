@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+import FavouriteComponent from "./Components/FavouriteComponent/FavouriteComponent"
+import StatusComponent from "./Components/StatusComponent/StatusComponent"
+import PlayerControllerComponent from "./Components/PlayerControllerComponent/PlayerControllerComponent"
+import PlayListComponent from "./Components/PlayListComponent/PlayListComponent"
+
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div id="MainContainer">
+            <FavouriteComponent id="FavouriteComponent"></FavouriteComponent>
+            <StatusComponent id="StatusComponent"></StatusComponent>
+            <PlayerControllerComponent id="PlayerControllerComponent"></PlayerControllerComponent>
+            <PlayListComponent id="PlayListComponent"></PlayListComponent>
+        </div>
     </div>
   );
 }
