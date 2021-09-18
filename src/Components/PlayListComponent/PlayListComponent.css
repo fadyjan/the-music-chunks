@@ -1,0 +1,36 @@
+#PlayListComponentDiv{
+    background-color: #111727;
+    flex-grow: 2;
+    color: wheat ;
+    height: 100%;
+    /* width: 20%; */
+}
+#PlayListHeader{
+    color: white ;
+}
+
+#ButtonsContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.SelectionButton{
+    width: fit-content;
+    padding-left: 10%;
+    border: transparent;
+    background-color: transparent;
+    color: azure;
+}
+
+#TracksContainer{
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
